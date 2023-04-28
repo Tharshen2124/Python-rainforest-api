@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+numpy = "*"
+pandas = "*"
+statsmodels = "*"
+matplotlib = "*"
+fastapi = "*"
+firebase-admin = "*"
+scikit-learn = "*"
+jinja2 = "*"
+openai = "*"
+uvicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
